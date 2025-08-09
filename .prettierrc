@@ -1,0 +1,14 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "overrides": [
+    { "files": "*.yml", "options": { "useTabs": false } },
+    { "files": "*.json", "options": { "useTabs": false } },
+    { "files": ".eslintrc", "options": { "useTabs": false } },
+    { "files": ".prettierrc", "options": { "useTabs": false } },
+    { "files": ".stylelintrc", "options": { "useTabs": false } }
+  ],
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
