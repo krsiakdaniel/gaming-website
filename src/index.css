@@ -1,5 +1,48 @@
 @import 'tailwindcss';
 
+/* Custom colors for Tailwind v4 */
+@theme {
+  --color-blue-50: #dfdff0;
+  --color-blue-75: #dfdff2;
+  --color-blue-100: #f0f2fa;
+  --color-blue-200: #010101;
+  --color-blue-300: #4fb7dd;
+
+  --color-violet-300: #5724ff;
+
+  --color-yellow-100: #8e983f;
+  --color-yellow-300: #edff66;
+}
+
+/* Fallback custom utility classes */
+.text-custom-violet {
+  color: #5724ff;
+}
+
+.text-custom-yellow {
+  color: #edff66;
+}
+
+.text-custom-blue {
+  color: #4fb7dd;
+}
+
+.bg-custom-blue-light {
+  background-color: #dfdff0;
+}
+
+.border-custom-violet {
+  border-color: #5724ff;
+}
+
+.border-custom-yellow {
+  border-color: #edff66;
+}
+
+.border-custom-blue {
+  border-color: #4fb7dd;
+}
+
 /* Base styles that work with Tailwind */
 body {
   font-family: 'General Sans', sans-serif;
