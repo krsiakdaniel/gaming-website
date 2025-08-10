@@ -1,5 +1,16 @@
 # React + TypeScript + Vite + SWC
 
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production (TypeScript compilation + Vite build)
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
+- `npm run prettier:check` - Check code formatting
+- `npm run prettier:write` - Format code with Prettier
+
+## Eslint
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 RUST plugin SWC:
